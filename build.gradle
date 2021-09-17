@@ -1,0 +1,30 @@
+plugins {
+    id 'java'
+    id 'info.solidsoft.pitest' version '1.5.1'
+}
+
+group 'dev.franzon.mutation'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.2'
+    testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.2'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+pitest {
+    pitest {
+        threads = 4
+        outputFormats = ['XML', 'HTML']
+        timestampedReports = false
+    }
+    junit5PluginVersion = '0.12'
+}
+

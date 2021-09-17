@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="dev.franzon.mutation.SimpleCalculatorTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2021-09-17T23:52:47" hostname="DESKTOP-T8IVEKU" time="0.03">
+  <properties/>
+  <testcase name="shouldSubtractTheNumbers()" classname="dev.franzon.mutation.SimpleCalculatorTest" time="0.021"/>
+  <testcase name="shouldDivTheNumbers()" classname="dev.franzon.mutation.SimpleCalculatorTest" time="0.0"/>
+  <testcase name="shouldMultTheNumbers()" classname="dev.franzon.mutation.SimpleCalculatorTest" time="0.0"/>
+  <testcase name="shouldThrowException()" classname="dev.franzon.mutation.SimpleCalculatorTest" time="0.004"/>
+  <testcase name="shouldAddTheNumbers()" classname="dev.franzon.mutation.SimpleCalculatorTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
